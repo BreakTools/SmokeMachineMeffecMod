@@ -2,7 +2,7 @@
 Smoke machines are pretty cool. Smoke machines you can wirelessly control are even cooler, but they're also way more expensive. So instead of spending a lot of money on one I decided to spend a lot of time on modding the dirt cheap smoke machine I already own! Sharing my code and files online in case someone else has interest in doing something similar :)
 
 
-I've got a BeamZ S500 smoke machine which can be triggered by a button that's on a control unit. Luckily for us the pins on that button stick out massively on the other sides, so soldering some wires to it is super easy:
+I've got a BeamZ S500 smoke machine which can be triggered by a button that's on a control unit. Luckily for us the pins on that button stick out massively on the other side, so soldering some wires to it is super easy:
 
 ![smokemachine](https://github.com/user-attachments/assets/b76ad1ca-e51b-4261-9ecb-4a23feef477f)
 
