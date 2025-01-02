@@ -13,3 +13,4 @@ When the button is pressed electricity flows between those two pins, which trigg
 I've also modeled and 3d printed a mount so I can screw the whole system to the bottom of the smoke machine's control unit (STL and FreeCAD file can be found in the resources folder):
 ![model](https://github.com/user-attachments/assets/6241a9f9-74c8-4e27-bf93-9fc28dc33b93)
 
+Please be careful with the button wiring if you're planning on doing a mod like this yourself, as the voltage across it is roughly 70V. 
