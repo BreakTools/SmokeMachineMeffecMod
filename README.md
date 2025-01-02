@@ -14,11 +14,13 @@ When the button is pressed electricity flows between those two pins, which trigg
 I've also modeled and 3d printed a mount so I can screw the whole system to the bottom of the smoke machine's control unit (STL and FreeCAD file can be found in the resources folder):
 ![model](https://github.com/user-attachments/assets/6241a9f9-74c8-4e27-bf93-9fc28dc33b93)
 
-Please be careful with the button wiring if you're planning on doing a mod like this yourself, as the voltage across it is roughly 70V. 
+And that's pretty much it! Total cost of the mod was about 8 euros, not a bad price for a wireless upgrade!
 
 ![finalcase](https://github.com/user-attachments/assets/6cbaef6a-d5ae-4851-9d2f-f0b7aecdfa1f)
 
-### Future work
+Please be careful with the button wiring if you're planning on doing a mod like this yourself, as the voltage across it is roughly 70V. 
+
+## Future work
 Couple of things about this system that could be improved still:
 - Whenever the relay turns off there's electrical noise which messes up the OLED display. I've "fixed" this now by just adding a delay after the relay turns off but this is clearly a hardware problem and should be fixed.
 - I should buy some smaller screws that actually fit the relay.
