@@ -1,6 +1,7 @@
 # WebSocket controlled smoke machine mod
 Smoke machines are pretty cool. Smoke machines you can wirelessly control are even cooler, but they're also way more expensive. So instead of spending a lot of money on one I decided to spend a lot of time on modding the dirt cheap smoke machine I already own! Sharing my code and files online in case someone else has interest in doing something similar :)
 
+https://github.com/user-attachments/assets/eef2c1eb-12a6-4686-8a88-89f622232f13
 
 I've got a BeamZ S500 smoke machine which can be triggered by a button that's on a control unit. Luckily for us the pins on that button stick out massively on the other side, so soldering some wires to it is super easy:
 
@@ -14,3 +15,12 @@ I've also modeled and 3d printed a mount so I can screw the whole system to the 
 ![model](https://github.com/user-attachments/assets/6241a9f9-74c8-4e27-bf93-9fc28dc33b93)
 
 Please be careful with the button wiring if you're planning on doing a mod like this yourself, as the voltage across it is roughly 70V. 
+
+![finalcase](https://github.com/user-attachments/assets/6cbaef6a-d5ae-4851-9d2f-f0b7aecdfa1f)
+
+### Future work
+Couple of things about this system that could be improved still:
+- Whenever the relay turns off there's electrical noise which messes up the OLED display. I've "fixed" this now by just adding a delay after the relay turns off but this is clearly a hardware problem and should be fixed.
+- I should buy some smaller screws that actually fit the relay.
+- The 3d printed case could use some walls, but I don't have long enough screws to make that happen. I guess I need to buy more screws.
+- Yeah I should go and buy some screws, like a nice good set of screws.
