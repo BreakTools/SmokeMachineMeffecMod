@@ -18,6 +18,9 @@ void RelayHandler::processSmokeMachineData(SmokeMachineData &smokeMachineData)
     else
     {
         digitalWrite(RELAY_PIN, LOW);
+        // Turning off the relay seems to be causing some noise in the electronics which messes up the OLED display timing.
+        // Instead of fixing that with proper electrical engineering knowledge I'm just adding a delay lol.
+        delay(200);
     }
 
     this->lastProcessTimeInMillisFromBoot = millis();
